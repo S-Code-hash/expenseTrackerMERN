@@ -22,13 +22,13 @@ export const IncomeExpenses = () => {
       <div>
         <h4>Income</h4>
         <p className="money plus">
-        "₹"{numberWithCommas(income)}
+        ₹{numberWithCommas(income)}
         </p>
       </div>
       <div>
         <h4>Expense</h4>
         <p className="money minus">
-        "₹"{numberWithCommas(expense)}
+        ₹{numberWithCommas(expense)}
         </p>
       </div>
     </div>
